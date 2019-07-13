@@ -16,8 +16,9 @@ class User extends Authenticatable
      *
      * @var array
      */
+    use SoftDeletes;
     protected $fillable = [
-        'name', 'email', 'password',
+        'role_id' ,'first_name','last_name','father_name','mobile_no','tel','nID','sID','birth_date','address','gender'
     ];
 
     /**
