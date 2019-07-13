@@ -54,7 +54,7 @@
                         <div class="col-md-12">
                             <div class="checkbox checkbox-primary float-left pt-0">
                                 <input id="checkbox-remember" name="remember" type="checkbox" {{ old('remember') ? 'checked' : '' }}>
-                                <label for="checkbox-signup"> مرا به خاطر بسپار </label>
+                                <label for="checkbox-remember"> مرا به خاطر بسپار </label>
                             </div> </div>
                     </div>
                     <div class="form-group text-center mt-3">

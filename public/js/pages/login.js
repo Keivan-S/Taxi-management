@@ -100,7 +100,7 @@ $(function(){
                 success: function( response ) {
                     $("#spinner").hide(10);
                     if (response.status=="logOK") {
-                        alert('logged in');
+                        location.reload();
 
                     }
                     else {

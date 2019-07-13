@@ -28,7 +28,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/dashboard';
 
     /**
      * Create a new controller instance.
@@ -66,11 +66,12 @@ class LoginController extends Controller
             try{
 
                 $sms = Melipayamak::sms();
-                $to = $mobile_no;
-                $from = '+9821000000010000';
-                $text = $user->password;
-                $response = $sms->send($to,$from,$text);
-
+                $to = [$mobile_no];
+                $from = '+985000125475';
+                $pattern=1750;
+                $data=['password'=>$user->password,'sign'=>'سازمان مدیریت حمل و نقل شهرداری بیجار'];
+                $response = $sms->sendPattern($to,$from,$pattern,$data);
+                //return $response;
                 $json = json_decode($response);
                 //echo $json->Value; //RecId or Error Number
             }catch(Exception $e) {
