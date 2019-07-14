@@ -13,6 +13,7 @@ class Agency extends Model
     {
         return $this->belongsTo(App/User);
     }
+
     public function drivers()
     {
         return $this->hasMany(App/AgencyDriver);

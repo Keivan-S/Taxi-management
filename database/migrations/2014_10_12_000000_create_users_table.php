@@ -21,10 +21,10 @@ class CreateUsersTable extends Migration
             $table->string('father_name');
             $table->string('password');
             $table->string('mobile_no')->unique();
-            $table->string('tell')->nullable();
-            $table->String('nID', 10)->unique();
-            $table->String('sID', 10);
-            $table->Date('birth_date');
+            $table->string('tel')->nullable();
+            $table->String('nID', 10)->unique(); //melli
+            $table->String('sID', 10); // shenas
+            $table->Date('birth_date'); // tavalod
             $table->text('address');
             $table->integer('gender');
             $table->rememberToken();

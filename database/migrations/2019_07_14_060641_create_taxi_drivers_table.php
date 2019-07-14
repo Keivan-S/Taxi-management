@@ -16,12 +16,12 @@ class CreateTaxiDriversTable extends Migration
         Schema::create('taxi_drivers', function (Blueprint $table) {
             $table->Increments('id');
             $table->integer('user_id');
-            $table->text('license_number');
-            $table->date('license_expire');
+            $table->text('license_number'); // mojavez
+            $table->date('license_expire'); // engheza mojavez
             $table->integer('taxi_id');
-            $table->integer('vac_priv');
+            $table->integer('vac_priv'); // ejaze morakhasi
             $table->integer('status');
-            $table->integer('ِdriver_license_type');
+            $table->integer('ِdriver_license_type'); // noe govahi
             $table->string('driver_license_serial', 100);
             $table->date('driver_license_expire');
             $table->softDeletes();

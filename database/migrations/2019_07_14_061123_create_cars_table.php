@@ -15,14 +15,14 @@ class CreateCarsTable extends Migration
     {
         Schema::create('cars', function (Blueprint $table) {
             $table->Increments('id');
-            $table->text('plate');
-            $table->integer('system_id');
+            $table->text('plate'); //پلاک
+            $table->integer('system_id'); //سیستم سمند
             $table->integer('model');
             $table->text('motor_serial');
             $table->text('gas_card_number');
             $table->text('chassis_serial');
             $table->integer('type');
-            $table->date('insurance_expire');
+            $table->date('insurance_expire'); //انقضای بیمه
             $table->softDeletes();
             $table->timestamps();
         });

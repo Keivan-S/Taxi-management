@@ -16,7 +16,7 @@ class CreateTaxisTable extends Migration
         Schema::create('taxis', function (Blueprint $table) {
             $table->Increments('id');
             $table->integer('code')->unique();
-            $table->integer('taxi_line_id');
+            $table->integer('taxi_line_id'); // khat
             $table->integer('car_id');
             $table->integer('user_id');
             $table->softDeletes();
