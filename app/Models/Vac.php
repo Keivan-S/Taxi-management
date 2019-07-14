@@ -10,6 +10,6 @@ class Vac extends Model
     use SoftDeletes;
     public function driver()
     {
-        return $this->belongsTo(App/User);
+        return $this->belongsTo(App/Models/User);
     }
 }

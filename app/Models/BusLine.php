@@ -10,7 +10,7 @@ class BusLine extends Model
     use SoftDeletes;
     public function cars()
     {
-        return $this->hasMany(App/Bus);
+        return $this->hasMany(App/Models/Bus);
     }
 
 }

@@ -11,11 +11,11 @@ class Agency extends Model
 
     public function owner()
     {
-        return $this->belongsTo(App/User);
+        return $this->belongsTo(App/Models/User);
     }
 
     public function drivers()
     {
-        return $this->hasMany(App/AgencyDriver);
+        return $this->hasMany(App/Models/AgencyDriver);
     }
 }

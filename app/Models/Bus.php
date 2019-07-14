@@ -10,14 +10,14 @@ class Bus extends Model
     use SoftDeletes;
     public function driver()
     {
-        return $this->belongsTo(App/User);
+        return $this->belongsTo(App/Models/User);
     }
     public function car()
     {
-        return $this->belongsTo(App/Car);
+        return $this->belongsTo(App/Models/Car);
     }
     public function owner()
     {
-        return $this->belongsTo(App/BusLine);
+        return $this->belongsTo(App/Models/BusLine);
     }
 }

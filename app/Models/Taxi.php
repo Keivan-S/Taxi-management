@@ -12,6 +12,6 @@ class Taxi extends Model
     public function car()
     {
 
-        return $this->hasone(App/Bus);
+        return $this->hasone(App/Models/Bus);
     }
 }
