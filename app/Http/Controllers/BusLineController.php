@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\BusLine;
+use App\Models\BusLine;
 use Illuminate\Http\Request;
 
 class BusLineController extends Controller

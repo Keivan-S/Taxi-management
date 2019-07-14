@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\AgencyDriver;
+use App\Models\AgencyDriver;
 use Illuminate\Http\Request;
 
 class AgencyDriverController extends Controller
