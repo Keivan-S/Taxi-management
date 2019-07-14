@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateInspectorsTable extends Migration
+class CreateTaxisTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,13 @@ class CreateInspectorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('inspectors', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('role_id');
+        Schema::create('taxis', function (Blueprint $table) {
+            $table->Increments('id');
+            $table->integer('code')->unique();
+            $table->integer('taxi_line_id');
+            $table->integer('car_id');
             $table->integer('user_id');
+            $table->softDeletes();
             $table->timestamps();
         });
     }
@@ -28,6 +31,6 @@ class CreateInspectorsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('inspectors');
+        Schema::dropIfExists('taxis');
     }
 }

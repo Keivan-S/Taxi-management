@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTaxiDriverTable extends Migration
+class CreateTaxiDriversTable extends Migration
 {
     /**
      * Run the migrations.
@@ -21,6 +21,10 @@ class CreateTaxiDriverTable extends Migration
             $table->integer('taxi_id');
             $table->integer('vac_priv');
             $table->integer('status');
+            $table->integer('ِdriver_license_type');
+            $table->string('driver_license_serial', 100);
+            $table->date('driver_license_expire');
+            $table->softDeletes();
             $table->timestamps();
         });
     }
@@ -32,6 +36,6 @@ class CreateTaxiDriverTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('taxi_driver');
+        Schema::dropIfExists('taxi_drivers');
     }
 }

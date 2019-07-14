@@ -23,6 +23,7 @@ class CreateCarsTable extends Migration
             $table->text('chassis_serial');
             $table->integer('type');
             $table->date('insurance_expire');
+            $table->softDeletes();
             $table->timestamps();
         });
     }
