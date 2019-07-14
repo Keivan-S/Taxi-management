@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use App\Models\Bus;
 
 class Taxi extends Model
 {
@@ -12,6 +13,6 @@ class Taxi extends Model
     public function car()
     {
 
-        return $this->hasone(App/Bus);
+        return $this->hasone(Bus::class);
     }
 }

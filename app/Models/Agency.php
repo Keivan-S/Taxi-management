@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use App\User;
+use App\Models\AgencyDriver;
 
 class Agency extends Model
 {
@@ -11,11 +13,11 @@ class Agency extends Model
 
     public function owner()
     {
-        return $this->belongsTo(App/User);
+        return $this->belongsTo(User::class);
     }
 
     public function drivers()
     {
-        return $this->hasMany(App/AgencyDriver);
+        return $this->hasMany(AgencyDriver::class);
     }
 }
