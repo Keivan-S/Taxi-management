@@ -203,11 +203,11 @@ $(function () {
     // Download count
     // ============================================================== 
     var sparklineLogin = function () {
-        $('.spark-count').sparkline([4, 5, 0, 10, 9, 12, 4, 9, 4, 5, 3, 10, 9, 12, 10], {
+        $('.spark-count').sparkline([4, 5, 0, 10, 9, 12, 4, 9, 4, 5, 3, 10, 9, 12, 10, 9, 12, 4, 9], {
             type: 'bar'
             , width: '100%'
             , height: '100'
-            , barWidth: '5'
+            , barWidth: '8'
             , resize: true
             , barSpacing: '5'
             , barColor: 'rgba(255, 255, 255, 0.3)'
