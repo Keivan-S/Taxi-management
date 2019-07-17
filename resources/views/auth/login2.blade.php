@@ -9,9 +9,9 @@
     <!--===============================================================================================-->
     <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/plugins/bootstrap/css/bootstrap.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/fontawesome.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/font-awesome.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')}}">
     <!--===============================================================================================-->
    {{-- <link rel="stylesheet" type="text/css" href="{{asset('css/icon-font.min.css')}}">--}}
@@ -22,8 +22,8 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/login/main.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/login/util.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/login/main.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/login/util.css')}}">
     <!--===============================================================================================-->
 </head>
 
@@ -31,7 +31,7 @@
 <body>
 
 <div class="limiter">
-    <div class="container-login100" style="background-image: url({{url('images/background/bg1.jpg')}});">
+    <div class="container-login100" style="background-image: url({{url('assets/images/background/bg1.jpg')}});">
         <div class="wrap-login100 p-t-190 p-b-30">
 
 
@@ -39,7 +39,7 @@
                 @csrf
 
                 <div class="login100-form-avatar">
-                    <img src="{{asset('images/admin.png')}}" alt="AVATAR">
+                    <img src="{{asset('assets/images/admin.png')}}" alt="AVATAR">
                 </div>
 
                 <span class="login100-form-title p-t-20 p-b-45">
@@ -69,7 +69,7 @@
                 @csrf
 
                 <div class="login100-form-avatar">
-                    <img src="{{asset('images/admin.png')}}" alt="AVATAR">
+                    <img src="{{asset('assets/images/login/admin.png')}}" alt="AVATAR">
                 </div>
 
                 <span class="login100-form-title p-t-20 p-b-45">
@@ -105,15 +105,15 @@
 
 
     <!--===============================================================================================-->
-    <script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
-    <script src="{{asset('js/bootstrap.js')}}"></script>
-    <script src="{{asset('js/fontawesome.min.js')}}"></script>
+    <script src="{{asset('assets/js/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{asset('assets/js/bootstrap.js')}}"></script>
+    <script src="{{asset('assets/js/fontawesome.min.js')}}"></script>
     <!--===============================================================================================-->
-    <script src="{{asset('js/login/proper.js')}}"></script>
+    <script src="{{asset('assets/js/login/proper.js')}}"></script>
     <!--===============================================================================================-->
     <script src="vendor/select2/select2.min.js"></script>
     <!--===============================================================================================-->
-    <script src="{{asset('js/login/main.js')}}"></script>
+    <script src="{{asset('assets/js/login/main.js')}}"></script>
 
 </body>
 </html>

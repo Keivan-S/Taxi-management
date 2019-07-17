@@ -6,37 +6,37 @@ File: js
 */
 $(function () {
     "use strict";
-    // ==============================================================
+    // ============================================================== 
     // Total revenue chart
-    // ==============================================================
+    // ============================================================== 
     new Chartist.Line('.total-revenue4', {
-            labels: ['0', '4', '8', '12', '16', '20', '24', '30']
-            , series: [
-                [0, 2, 3.5, 0, 13, 1, 4, 1]
-                , [0, 4, 0, 4, 0, 4, 0, 4]
-            ]
-
-        },
-
-        {
-            high: 15
-            , low: 0
-            , showArea: true
-            , fullWidth: true
-            , plugins: [
-                Chartist.plugins.tooltip()
-            ], // As this is axis specific we need to tell Chartist to use whole numbers only on the concerned axis
-            axisY: {
-                onlyInteger: true
-                , offset: 20
-                , labelInterpolationFnc: function (value) {
-                    return (value / 1) + 'k';
-                }
+        labels: ['0', '4', '8', '12', '16', '20', '24', '30']
+        , series: [
+        [0, 2, 3.5, 0, 13, 1, 4, 1]
+        , [0, 4, 0, 4, 0, 4, 0, 4]
+      ]
+        
+    }, 
+                     
+      {
+        high: 15
+        , low: 0
+        , showArea: true
+        , fullWidth: true
+        , plugins: [
+        Chartist.plugins.tooltip()
+      ], // As this is axis specific we need to tell Chartist to use whole numbers only on the concerned axis
+        axisY: {
+            onlyInteger: true
+            , offset: 20
+            , labelInterpolationFnc: function (value) {
+                return (value / 1) + 'k';
             }
-
-        });
-
-    // ==============================================================
+        }
+        
+    });
+    
+    // ============================================================== 
     // sales difference
     // ==============================================================
     new Chartist.Pie('.ct-chart', {
@@ -48,9 +48,9 @@ $(function () {
         , showLabel: false
     });
 });
-// ==============================================================
+// ============================================================== 
 // doughnut chart option
-// ==============================================================
+// ============================================================== 
 var doughnutChart = echarts.init(document.getElementById('sales-donute'));
 // specify chart configuration item and data
 option = {
@@ -120,19 +120,19 @@ option = {
                 {
                     value: 835
                     , name: 'Item A'
-                }
-                , {
+                    }
+                    , {
                     value: 310
                     , name: 'Item B'
-                }
-                , {
+                    }
+                    , {
                     value: 134
                     , name: 'Item C'
-                }
-                , {
+                    }
+                    , {
                     value: 235
                     , name: 'Item D'
-                }
+                    }
 
             ]
         }
@@ -148,9 +148,9 @@ doughnutChart.setOption(option, true), $(function () {
     $(window).on("resize", resize), $(".sidebartoggler").on("click", resize)
 });
 
-// ==============================================================
+// ============================================================== 
 // Gauge chart option
-// ==============================================================
+// ============================================================== 
 var gaugeChart = echarts.init(document.getElementById('gauge-chart'));
 option = {
     tooltip: {
@@ -225,12 +225,12 @@ option = {
         }
     ]
 };
-timeTicket = setInterval(function () {
-    option.series[0].data[0].value = (Math.random() * 100).toFixed(2) - 0;
-    gaugeChart.setOption(option, true);
-}, 2000)
-// use configuration item and data specified to show chart
-gaugeChart.setOption(option, true), $(function () {
+    timeTicket = setInterval(function () {
+        option.series[0].data[0].value = (Math.random() * 100).toFixed(2) - 0;
+        gaugeChart.setOption(option, true);
+    }, 2000)
+    // use configuration item and data specified to show chart
+    gaugeChart.setOption(option, true), $(function () {
     function resize() {
         setTimeout(function () {
             gaugeChart.resize()

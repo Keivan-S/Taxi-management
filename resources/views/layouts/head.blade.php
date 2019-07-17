@@ -1,32 +1,34 @@
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>@yield('title')</title>
-
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <meta name="description" content="@yield('description')">
+    <meta name="author" content="@yield('author')">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon.png') }}">
+    <title>@yield('title')- @yield('pageTitle')</title>
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.css')}}" >
-    <link rel="stylesheet" href="{{asset('assets/css/custom-bootstrap-rtl.css')}}">
+    <link href="{{asset('assets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/plugins/bootstrap-rtl-master/dist/css/custom-bootstrap-rtl.css')}}" rel="stylesheet">
     <!-- chartist CSS -->
-    <link rel="stylesheet" href="{{asset('assets/css/chartist.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/chartist-init.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/chartist-plugin-tooltip.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/css-chart.css')}}">
+    <link href="{{asset('assets/plugins/chartist-js/dist/chartist.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/plugins/chartist-js/dist/chartist-init.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/plugins/css-chart/css-chart.css')}}" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
     <!-- You can change the theme colors from here -->
-    <link rel="stylesheet" href="{{asset('assets/css/blue.css')}}s" id="theme">
-    <!-- Scripts -->
-   {{-- <script src="{{ asset('js/app.js') }}" defer></script>--}}
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
-    <!-- Styles -->
-    {{--<link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
-    <link rel="stylesheet" type="text/css" href="{{url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')}}">
+    <link href="{{asset('assets/css/colors/blue.css')}}" id="theme" rel="stylesheet">
 
+    @yield('stylesheet')
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+
+    <![endif]-->
 </head>
 
