@@ -13,8 +13,8 @@ class MenuController extends Controller
      * @return \Illuminate\Http\Response
      */
     static private $menuItem = '<li class="{$active}"><a href="{$link}" aria-expanded="false"><i class="{$icon}"></i><span class="hide-menu">{$name}</span></a></li>';
-    static private $parent_level_one = '<li class="{$active}"><a class="has-arrow " href="#" aria-expanded="false"><i class="mdi {$icon}"></i><span class="hide-menu">{$name}</span></a><ul aria-expanded="false" class="collapse in" style="">{$menu}</ul></li>';
-    static private $parent_level_other = '<li class="{$active}"><a class="has-arrow" href="#" aria-expanded="false">{$name}</a><ul aria-expanded="true" class="collapse in" style="">{$menu}</ul>';
+    static private $parent_level_one = '<li class="{$active}"><a class="has-arrow " href="#" aria-expanded="false"><i class="mdi {$icon}"></i><span class="hide-menu">{$name}</span></a><ul aria-expanded="false" class="collapse" style="height: 0px;">{$menu}</ul></li>';
+    static private $parent_level_other = '<li class="{$active}"><a class="has-arrow" href="#" aria-expanded="false">{$name}</a><ul aria-expanded="true" class="collapse" style="">{$menu}</ul>';
     static private $menutop = '<nav class="sidebar-nav"><ul id="sidebarnav">';
     static private $menutitle = '<li class="nav-small-cap">{$name}</li>';
     static private $menubottom = '</ul></nav>';

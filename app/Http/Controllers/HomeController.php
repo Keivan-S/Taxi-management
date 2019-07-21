@@ -23,7 +23,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('index');
+        return view('index',['create'=>'1']);
     }
 
+    public function roles()
+    {
+        return view('admin.roles',['create'=>'1']);
+    }
 }
