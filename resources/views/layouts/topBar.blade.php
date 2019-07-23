@@ -96,25 +96,25 @@
                             <div class="message-center">
                                 <!-- Message -->
                                 <a href="#">
-                                    <div class="user-img"> <img src="{{ asset('images/users/1.jpg')}} " alt="user" class="img-circle"> <span class="profile-status online float-right"></span> </div>
+                                    <div class="user-img"> <img src="images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online float-right"></span> </div>
                                     <div class="mail-contnet">
                                         <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span> </div>
                                 </a>
                                 <!-- Message -->
                                 <a href="#">
-                                    <div class="user-img"> <img src="{{ asset('images/users/2.jpg')}} " alt="user" class="img-circle"> <span class="profile-status busy float-right"></span> </div>
+                                    <div class="user-img"> <img src="images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy float-right"></span> </div>
                                     <div class="mail-contnet">
                                         <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
                                 </a>
                                 <!-- Message -->
                                 <a href="#">
-                                    <div class="user-img"> <img src="{{ asset('images/users/3.jpg')}} " alt="user" class="img-circle"> <span class="profile-status away float-right"></span> </div>
+                                    <div class="user-img"> <img src="images/users/3.jpg" alt="user" class="img-circle"> <span class="profile-status away float-right"></span> </div>
                                     <div class="mail-contnet">
                                         <h5>Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span> </div>
                                 </a>
                                 <!-- Message -->
                                 <a href="#">
-                                    <div class="user-img"> <img src="{{ asset('images/users/4.jpg')}} " alt="user" class="img-circle"> <span class="profile-status offline float-right"></span> </div>
+                                    <div class="user-img"> <img src="images/users/4.jpg" alt="user" class="img-circle"> <span class="profile-status offline float-right"></span> </div>
                                     <div class="mail-contnet">
                                         <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
                                 </a>
@@ -141,13 +141,13 @@
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        <div class="container"> <img class="d-block img-fluid" src="{{ asset('images/big/img1.jpg')}} " alt="First slide"></div>
+                                        <div class="container"> <img class="d-block img-fluid" src="images/big/img1.jpg" alt="First slide"></div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="container"><img class="d-block img-fluid" src="{{ asset('images/big/img2.jpg')}} " alt="Second slide"></div>
+                                        <div class="container"><img class="d-block img-fluid" src="images/big/img2.jpg" alt="Second slide"></div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="container"><img class="d-block img-fluid" src="{{ asset('images/big/img3.jpg')}} " alt="Third slide"></div>
+                                        <div class="container"><img class="d-block img-fluid" src="images/big/img3.jpg" alt="Third slide"></div>
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
@@ -235,12 +235,12 @@
                     <input type="text" class="form-control" placeholder="Search for..."> <a class="srh-btn"><i class="ti-search"></i></a> </form>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{{ asset('images/users/1.jpg')}} " alt="user" class="profile-pic" /></a>
+                <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/users/1.jpg" alt="user" class="profile-pic" /></a>
                 <div class="dropdown-menu dropdown-menu-right animated flipInY">
                     <ul class="dropdown-user">
                         <li>
                             <div class="dw-user-box">
-                                <div class="u-img"><img src="{{ asset('images/users/1.jpg')}} " alt="user"></div>
+                                <div class="u-img"><img src="images/users/1.jpg" alt="user"></div>
                                 <div class="u-text">
                                     <h4>Steave Jobs</h4>
                                     <p class="text-muted">varun@gmail.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
