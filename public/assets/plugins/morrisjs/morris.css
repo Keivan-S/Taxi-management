@@ -12,12 +12,14 @@
 	margin:0.1em 0
 }
 .morris-hover.morris-default-style {
-    border-radius: 2px;
+    border-radius: 4px;
     padding: 10px 12px;
     color: #666;
-    background:rgba(0, 0, 0, 0.7);
+    background:#63676b;
     border: none;
     color: #fff!important ;
+    box-shadow: none;
+    font-size:14px;
 }
  .morris-hover-point {
       color: rgba(257, 257, 257, 0.8)!important ;

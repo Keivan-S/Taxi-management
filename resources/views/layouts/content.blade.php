@@ -4,24 +4,18 @@
     <!-- ============================================================== -->
     <div class="row page-titles">
         <div class="col-md-6 col-8 align-self-center">
-            <h3 class="text-themecolor m-b-0 m-t-0">Dashboard</h3>
+            <h3 class="text-themecolor mb-0 mt-0">داشبورد</h3>
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                <li class="breadcrumb-item active">Dashboard</li>
+                <li class="breadcrumb-item"><a href="javascript:void(0)">خانه</a></li>
+                <li class="breadcrumb-item active">داشبورد</li>
             </ol>
         </div>
         <div class="col-md-6 col-4 align-self-center">
-            <button class="right-side-toggle waves-effect waves-light btn-info btn-circle btn-sm pull-right m-l-10"><i class="ti-settings text-white"></i></button>
-            <button class="btn pull-right hidden-sm-down btn-success"><i class="mdi mdi-plus-circle"></i> Create</button>
-            <div class="dropdown pull-right m-r-10 hidden-sm-down">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    January 2017
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">February 2017</a>
-                    <a class="dropdown-item" href="#">March 2017</a>
-                    <a class="dropdown-item" href="#">April 2017</a>
-                </div>
+            <button class="right-side-toggle waves-effect waves-light btn-info btn-circle btn-sm float-right ml-2"><i class="ti-settings text-white"></i></button>
+            <button class="btn float-right hidden-sm-down btn-success"><i class="mdi mdi-plus-circle"></i> ایجاد</button>
+            <div class="dropdown float-right mr-2 hidden-sm-down">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> January 2019 </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">February 2019</a> <a class="dropdown-item" href="#">March 2019</a> <a class="dropdown-item" href="#">April 2019</a> </div>
             </div>
         </div>
     </div>
@@ -36,10 +30,10 @@
         <!-- Column -->
         <div class="col-lg-3 col-md-6">
             <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                     <h4 class="card-title">Daily Sales</h4>
                     <div class="text-right">
-                        <h2 class="font-light m-b-0"><i class="ti-arrow-up text-success"></i> $120</h2>
+                        <h2 class="font-light mb-0"><i class="ti-arrow-up text-success"></i> $120</h2>
                         <span class="text-muted">Todays Income</span>
                     </div>
                     <span class="text-success">80%</span>
@@ -53,10 +47,10 @@
         <!-- Column -->
         <div class="col-lg-3 col-md-6">
             <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                     <h4 class="card-title">Weekly Sales</h4>
                     <div class="text-right">
-                        <h2 class="font-light m-b-0"><i class="ti-arrow-up text-info"></i> $5,000</h2>
+                        <h2 class="font-light mb-0"><i class="ti-arrow-up text-info"></i> $5,000</h2>
                         <span class="text-muted">Todays Income</span>
                     </div>
                     <span class="text-info">30%</span>
@@ -70,10 +64,10 @@
         <!-- Column -->
         <div class="col-lg-3 col-md-6">
             <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                     <h4 class="card-title">Monthly Sales</h4>
                     <div class="text-right">
-                        <h2 class="font-light m-b-0"><i class="ti-arrow-up text-purple"></i> $8,000</h2>
+                        <h2 class="font-light mb-0"><i class="ti-arrow-up text-purple"></i> $8,000</h2>
                         <span class="text-muted">Todays Income</span>
                     </div>
                     <span class="text-purple">60%</span>
@@ -87,10 +81,10 @@
         <!-- Column -->
         <div class="col-lg-3 col-md-6">
             <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                     <h4 class="card-title">Yearly Sales</h4>
                     <div class="text-right">
-                        <h2 class="font-light m-b-0"><i class="ti-arrow-down text-danger"></i> $12,000</h2>
+                        <h2 class="font-light mb-0"><i class="ti-arrow-down text-danger"></i> $12,000</h2>
                         <span class="text-muted">Todays Income</span>
                     </div>
                     <span class="text-danger">80%</span>
@@ -108,19 +102,19 @@
         <!-- Column -->
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                     <div class="row">
                         <div class="col-12">
                             <div class="d-flex flex-wrap">
                                 <div>
                                     <h3>Revenue Statistics</h3>
-                                    <h6 class="card-subtitle">January 2017</h6> </div>
+                                    <h6 class="card-subtitle">January 2019</h6> </div>
                                 <div class="ml-auto ">
                                     <ul class="list-inline">
                                         <li>
-                                            <h6 class="text-muted"><i class="fa fa-circle m-r-5 text-success"></i>Product A</h6> </li>
+                                            <h6 class="text-muted"><i class="fa fa-circle mr-1 text-success"></i>Product A</h6> </li>
                                         <li>
-                                            <h6 class="text-muted"><i class="fa fa-circle m-r-5 text-info"></i>Product B</h6> </li>
+                                            <h6 class="text-muted"><i class="fa fa-circle mr-1 text-info"></i>Product B</h6> </li>
                                     </ul>
                                 </div>
                             </div>
@@ -128,17 +122,17 @@
                         <div class="col-12">
                             <div class="total-revenue4" style="height: 350px;"></div>
                         </div>
-                        <div class="col-lg-3 col-md-6 m-b-30 m-t-20 text-center">
-                            <h1 class="m-b-0 font-light">$54578</h1>
+                        <div class="col-lg-3 col-md-6 mb-4 mt-3 text-center">
+                            <h1 class="mb-0 font-light">$54578</h1>
                             <h6 class="text-muted">Total Revenue</h6></div>
-                        <div class="col-lg-3 col-md-6 m-b-30 m-t-20 text-center">
-                            <h1 class="m-b-0 font-light">$43451</h1>
+                        <div class="col-lg-3 col-md-6 mb-4 mt-3 text-center">
+                            <h1 class="mb-0 font-light">$43451</h1>
                             <h6 class="text-muted">Online Revenue</h6></div>
-                        <div class="col-lg-3 col-md-6 m-b-30 m-t-20 text-center">
-                            <h1 class="m-b-0 font-light">$44578</h1>
+                        <div class="col-lg-3 col-md-6 mb-4 mt-3 text-center">
+                            <h1 class="mb-0 font-light">$44578</h1>
                             <h6 class="text-muted">Product A</h6></div>
-                        <div class="col-lg-3 col-md-6 m-b-30 m-t-20 text-center">
-                            <h1 class="m-b-0 font-light">$12578</h1>
+                        <div class="col-lg-3 col-md-6 mb-4 mt-3 text-center">
+                            <h1 class="mb-0 font-light">$12578</h1>
                             <h6 class="text-muted">Product B</h6></div>
                     </div>
                 </div>
@@ -150,11 +144,11 @@
     <div class="row">
         <div class="col-lg-4 col-md-12">
             <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                     <h4 class="card-title">Sales of the Month</h4>
                     <div id="sales-donute" style="width:100%; height:300px;"></div>
-                    <div class="round-overlap m-t-20"><i class="mdi mdi-cart"></i></div>
-                    <ul class="list-inline m-t-30 text-center">
+                    <div class="round-overlap mt-3"><i class="mdi mdi-cart"></i></div>
+                    <ul class="list-inline mt-4 text-center">
                         <li><i class="fa fa-circle text-purple"></i> Item A</li>
                         <li><i class="fa fa-circle text-success"></i> Item B</li>
                         <li><i class="fa fa-circle text-info"></i> Item C</li>
@@ -166,7 +160,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-block">
+                        <div class="card-body">
                             <h4 class="card-title">Sales Prediction</h4>
                             <div class="d-flex flex-row">
                                 <div class="align-self-center">
@@ -182,7 +176,7 @@
                 </div>
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-block">
+                        <div class="card-body">
                             <h4 class="card-title">Sales Difference</h4>
                             <div class="d-flex flex-row">
                                 <div class="align-self-center">
@@ -200,20 +194,20 @@
         </div>
         <div class="col-lg-4 col-md-12">
             <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                     <div class="d-flex flex-row">
-                        <div class=""><img src="../assets/images/users/1.jpg" alt="user" class="img-circle" width="100"></div>
-                        <div class="p-l-20">
+                        <div class=""><img src="{{asset('assets/images/users/1.jpg')}}" alt="user" class="img-circle" width="100"></div>
+                        <div class="pl-3">
                             <h3 class="font-medium">Daniel Kristeen</h3>
                             <h6>UIUX Designer</h6>
                             <button class="btn btn-success"><i class="ti-plus"></i> Follow</button>
                         </div>
                     </div>
-                    <div class="row m-t-40">
-                        <div class="col b-r">
+                    <div class="row mt-5">
+                        <div class="col border-right">
                             <h2 class="font-light">14</h2>
                             <h6>Photos</h6></div>
-                        <div class="col b-r">
+                        <div class="col border-right">
                             <h2 class="font-light">54</h2>
                             <h6>Videos</h6></div>
                         <div class="col">
@@ -224,16 +218,16 @@
                 <div>
                     <hr>
                 </div>
-                <div class="card-block">
+                <div class="card-body">
                     <p class="text-center aboutscroll">
                         Lorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididunt adipisicing elit, sed do eiusmod tempor incididunLorem ipsum dolor sit ametetur adipisicing elit, sed do eiusmod tempor incididuntt
                     </p>
-                    <ul class="list-icons d-flex flex-item text-center p-t-10">
+                    <ul class="list-icons d-flex flex-item text-center pt-2">
                         <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="" data-original-title="Website"><i class="fa fa-globe font-20"></i></a></li>
-                        <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="" data-original-title="twitter"><i class="fa fa-twitter font-20"></i></a></li>
-                        <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="" data-original-title="Facebook"><i class="fa fa-facebook-square font-20"></i></a></li>
-                        <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="" data-original-title="Youtube"><i class="fa fa-youtube-play font-20"></i></a></li>
-                        <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="" data-original-title="Linkd-in"><i class="fa fa-linkedin-square font-20"></i></a></li>
+                        <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="" data-original-title="twitter"><i class="fab fa-twitter font-20"></i></a></li>
+                        <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="" data-original-title="Facebook"><i class="fab fa-facebook-square font-20"></i></a></li>
+                        <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="" data-original-title="Youtube"><i class="fab fa-youtube font-20"></i></a></li>
+                        <li class="col"><a href="javascript:void(0)" data-toggle="tooltip" title="" data-original-title="Linkd-in"><i class="fab fa-linkedin font-20"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -244,14 +238,14 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                     <h4 class="card-title">Recent Chats</h4>
                     <div class="chat-box">
                         <!--chat Row -->
                         <ul class="chat-list">
                             <!--chat Row -->
                             <li>
-                                <div class="chat-img"><img src="../assets/images/users/1.jpg" alt="user" /></div>
+                                <div class="chat-img"><img src="{{asset('assets/images/1.jpg')}}" alt="user" /></div>
                                 <div class="chat-content">
                                     <h5>James Anderson</h5>
                                     <div class="box bg-light-info">Lorem Ipsum is simply dummy text of the printing & type setting industry.</div>
@@ -260,7 +254,7 @@
                             </li>
                             <!--chat Row -->
                             <li>
-                                <div class="chat-img"><img src="../assets/images/users/2.jpg" alt="user" /></div>
+                                <div class="chat-img"><img src="{{asset('assets/images/users/2.jpg')}}" alt="user" /></div>
                                 <div class="chat-content">
                                     <h5>Bianca Doe</h5>
                                     <div class="box bg-light-success">It’s Great opportunity to work.</div>
@@ -285,7 +279,7 @@
                             </li>
                             <!--chat Row -->
                             <li>
-                                <div class="chat-img"><img src="../assets/images/users/3.jpg" alt="user" /></div>
+                                <div class="chat-img"><img src="{{asset('assets/images/users/3.jpg')}}" alt="user" /></div>
                                 <div class="chat-content">
                                     <h5>Angelina Rhodes</h5>
                                     <div class="box bg-light-primary">Well we have good budget for the project</div>
@@ -296,13 +290,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="card-block b-t">
+                <div class="card-body border-top">
                     <div class="row">
                         <div class="col-8">
                             <textarea placeholder="Type your message here" class="form-control b-0"></textarea>
                         </div>
                         <div class="col-4 text-right">
-                            <button type="button" class="btn btn-info btn-circle btn-lg"><i class="fa fa-paper-plane-o"></i> </button>
+                            <button type="button" class="btn btn-info btn-circle btn-lg"><i class="fas fa-paper-plane"></i> </button>
                         </div>
                     </div>
                 </div>
@@ -310,55 +304,55 @@
         </div>
         <div class="col-lg-6">
             <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                     <h4 class="card-title">Recent Messages</h4>
                     <div class="message-box">
                         <div class="message-widget message-scroll">
                             <!-- Message -->
                             <a href="#">
-                                <div class="user-img"> <img src="../assets/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                <div class="user-img"> <img src="{{asset('assets/images/users/1.jpg')}}" alt="user" class="img-circle"> <span class="profile-status online float-right"></span> </div>
                                 <div class="mail-contnet">
                                     <h5>Pavan kumar</h5> <span class="mail-desc">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been.</span> <span class="time">9:30 AM</span> </div>
                             </a>
                             <!-- Message -->
                             <a href="#">
-                                <div class="user-img"> <img src="../assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                                <div class="user-img"> <img src="{{asset('assets/users/2.jpg')}}" alt="user" class="img-circle"> <span class="profile-status busy float-right"></span> </div>
                                 <div class="mail-contnet">
                                     <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
                             </a>
                             <!-- Message -->
                             <a href="#">
-                                <div class="user-img"> <span class="round">A</span> <span class="profile-status away pull-right"></span> </div>
+                                <div class="user-img"> <span class="round">A</span> <span class="profile-status away float-right"></span> </div>
                                 <div class="mail-contnet">
                                     <h5>Arijit Sinh</h5> <span class="mail-desc">Simply dummy text of the printing and typesetting industry.</span> <span class="time">9:08 AM</span> </div>
                             </a>
                             <!-- Message -->
                             <a href="#">
-                                <div class="user-img"> <img src="../assets/images/users/4.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
+                                <div class="user-img"> <img src="{{asset('assets/images/users/4.jpg')}}" alt="user" class="img-circle"> <span class="profile-status offline float-right"></span> </div>
                                 <div class="mail-contnet">
                                     <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
                             </a>
                             <!-- Message -->
                             <a href="#">
-                                <div class="user-img"> <img src="../assets/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                <div class="user-img"> <img src="{{asset('assets/images/users/1.jpg')}}" alt="user" class="img-circle"> <span class="profile-status online float-right"></span> </div>
                                 <div class="mail-contnet">
                                     <h5>Pavan kumar</h5> <span class="mail-desc">Welcome to the Elite Admin</span> <span class="time">9:30 AM</span> </div>
                             </a>
                             <!-- Message -->
                             <a href="#">
-                                <div class="user-img"> <img src="../assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                                <div class="user-img"> <img src="{{asset('assets/images/users/2.jpg')}}" alt="user" class="img-circle"> <span class="profile-status busy float-right"></span> </div>
                                 <div class="mail-contnet">
                                     <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
                             </a>
                             <!-- Message -->
                             <a href="#">
-                                <div class="user-img"> <img src="../assets/images/users/3.jpg" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
+                                <div class="user-img"> <img src="{{asset('assets/images/users/3.jpg')}}" alt="user" class="img-circle"> <span class="profile-status away float-right"></span> </div>
                                 <div class="mail-contnet">
                                     <h5>Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span> </div>
                             </a>
                             <!-- Message -->
                             <a href="#">
-                                <div class="user-img"> <img src="../assets/images/users/4.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
+                                <div class="user-img"> <img src="{{asset('assets/images/users/4.jpg')}}" alt="user" class="img-circle"> <span class="profile-status offline float-right"></span> </div>
                                 <div class="mail-contnet">
                                     <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
                             </a>
@@ -373,15 +367,19 @@
     <div class="row">
         <div class="col-lg-8">
             <div class="card">
-                <div class="card-block">
-                    <select class="custom-select pull-right">
-                        <option selected>January</option>
-                        <option value="1">February</option>
-                        <option value="2">March</option>
-                        <option value="3">April</option>
-                    </select>
-                    <h4 class="card-title">Projects of the Month</h4>
-                    <div class="table-responsive m-t-40">
+                <div class="card-body">
+                    <div class="d-flex no-block">
+                        <h4 class="card-title">Projects of the Month</h4>
+                        <div class="ml-auto">
+                            <select class="custom-select">
+                                <option selected>January</option>
+                                <option value="1">February</option>
+                                <option value="2">March</option>
+                                <option value="3">April</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-responsive mt-5">
                         <table class="table stylish-table">
                             <thead>
                             <tr>
@@ -401,7 +399,7 @@
                                 <td>$3.9K</td>
                             </tr>
                             <tr class="active">
-                                <td><span class="round"><img src="../assets/images/users/2.jpg" alt="user" width="50" /></span></td>
+                                <td><span class="round"><img src="images/users/2.jpg" alt="user" width="50" /></span></td>
                                 <td>
                                     <h6>Andrew</h6><small class="text-muted">Project Manager</small></td>
                                 <td>Real Homes</td>
@@ -448,16 +446,20 @@
         </div>
         <div class="col-lg-4">
             <div class="card">
-                <div class="card-block">
-                    <select class="custom-select pull-right">
-                        <option selected>Today</option>
-                        <option value="1">Weekly</option>
-                    </select>
-                    <h4 class="card-title">Weather Report</h4>
-                    <div class="d-flex align-items-center flex-row m-t-30">
+                <div class="card-body">
+                    <div class="d-flex no-block">
+                        <h4 class="card-title">Weather Report</h4>
+                        <div class="ml-auto">
+                            <select class="custom-select">
+                                <option selected>Today</option>
+                                <option value="1">Weekly</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center flex-row mt-4">
                         <div class="p-2 display-5 text-info"><i class="wi wi-day-showers"></i> <span>73<sup>°</sup></span></div>
                         <div class="p-2">
-                            <h3 class="m-b-0">Saturday</h3><small>Ahmedabad, India</small></div>
+                            <h3 class="mb-0">Saturday</h3><small>Ahmedabad, India</small></div>
                     </div>
                     <table class="table no-border">
                         <tr>
@@ -502,10 +504,10 @@
         <!-- Column -->
         <div class="col-lg-4">
             <div class="card">
-                <img class="card-img-top img-responsive" src="../assets/images/big/img1.jpg" alt="Card">
-                <div class="card-block">
+                <img class="card-img-top img-responsive" src="images/big/img1.jpg" alt="Card">
+                <div class="card-body">
                     <ul class="list-inline font-14">
-                        <li class="p-l-0">20 May 2016</li>
+                        <li class="pl-0">20 May 2016</li>
                         <li><a href="javascript:void(0)" class="link">3 Comment</a></li>
                     </ul>
                     <h3 class="font-normal">Featured Hydroflora Pots Garden &amp; Outdoors</h3>
@@ -516,10 +518,10 @@
         <!-- Column -->
         <div class="col-lg-4">
             <div class="card">
-                <img class="card-img-top img-responsive" src="../assets/images/big/img2.jpg" alt="Card">
-                <div class="card-block">
+                <img class="card-img-top img-responsive" src="images/big/img2.jpg" alt="Card">
+                <div class="card-body">
                     <ul class="list-inline font-14">
-                        <li class="p-l-0">20 May 2016</li>
+                        <li class="pl-0">20 May 2016</li>
                         <li><a href="javascript:void(0)" class="link">3 Comment</a></li>
                     </ul>
                     <h3 class="font-normal">Featured Hydroflora Pots Garden &amp; Outdoors</h3>
@@ -530,10 +532,10 @@
         <!-- Column -->
         <div class="col-lg-4">
             <div class="card">
-                <img class="card-img-top img-responsive" src="../assets/images/big/img4.jpg" alt="Card">
-                <div class="card-block">
+                <img class="card-img-top img-responsive" src="images/big/img4.jpg" alt="Card">
+                <div class="card-body">
                     <ul class="list-inline font-14">
-                        <li class="p-l-0">20 May 2016</li>
+                        <li class="pl-0">20 May 2016</li>
                         <li><a href="javascript:void(0)" class="link">3 Comment</a></li>
                     </ul>
                     <h3 class="font-normal">Featured Hydroflora Pots Garden &amp; Outdoors</h3>
@@ -547,7 +549,7 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                     <h4 class="card-title">Recent Comments</h4>
                 </div>
                 <!-- ============================================================== -->
@@ -556,12 +558,12 @@
                 <div class="comment-widgets">
                     <!-- Comment Row -->
                     <div class="d-flex flex-row comment-row">
-                        <div class="p-2"><span class="round"><img src="../assets/images/users/1.jpg" alt="user" width="50"></span></div>
+                        <div class="p-2"><span class="round"><img src="images/users/1.jpg" alt="user" width="50"></span></div>
                         <div class="comment-text w-100">
                             <h5>James Anderson</h5>
-                            <p class="m-b-5">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                            <p class="mb-1">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry.</p>
                             <div class="comment-footer">
-                                <span class="text-muted pull-right">April 14, 2016</span>
+                                <span class="text-muted float-right">April 14, 2016</span>
                                 <span class="label label-light-info">Pending</span>
                                 <span class="action-icons">
                                                     <a href="javascript:void(0)"><i class="ti-pencil-alt"></i></a>
@@ -573,12 +575,12 @@
                     </div>
                     <!-- Comment Row -->
                     <div class="d-flex flex-row comment-row active">
-                        <div class="p-2"><span class="round"><img src="../assets/images/users/2.jpg" alt="user" width="50"></span></div>
+                        <div class="p-2"><span class="round"><img src="images/users/2.jpg" alt="user" width="50"></span></div>
                         <div class="comment-text active w-100">
                             <h5>Michael Jorden</h5>
-                            <p class="m-b-5">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry..</p>
+                            <p class="mb-1">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry..</p>
                             <div class="comment-footer ">
-                                <span class="text-muted pull-right">April 14, 2016</span>
+                                <span class="text-muted float-right">April 14, 2016</span>
                                 <span class="label label-light-success">Approved</span>
                                 <span class="action-icons active">
                                                     <a href="javascript:void(0)"><i class="ti-pencil-alt"></i></a>
@@ -590,12 +592,12 @@
                     </div>
                     <!-- Comment Row -->
                     <div class="d-flex flex-row comment-row">
-                        <div class="p-2"><span class="round"><img src="../assets/images/users/3.jpg" alt="user" width="50"></span></div>
+                        <div class="p-2"><span class="round"><img src="images/users/3.jpg" alt="user" width="50"></span></div>
                         <div class="comment-text w-100">
                             <h5>Johnathan Doeting</h5>
-                            <p class="m-b-5">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                            <p class="mb-1">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry.</p>
                             <div class="comment-footer">
-                                <span class="text-muted pull-right">April 14, 2016</span>
+                                <span class="text-muted float-right">April 14, 2016</span>
                                 <span class="label label-light-danger">Rejected</span>
                                 <span class="action-icons">
                                                     <a href="javascript:void(0)"><i class="ti-pencil-alt"></i></a>
@@ -607,12 +609,12 @@
                     </div>
                     <!-- Comment Row -->
                     <div class="d-flex flex-row comment-row">
-                        <div class="p-2"><span class="round"><img src="../assets/images/users/4.jpg" alt="user" width="50"></span></div>
+                        <div class="p-2"><span class="round"><img src="images/users/4.jpg" alt="user" width="50"></span></div>
                         <div class="comment-text w-100">
                             <h5>James Anderson</h5>
-                            <p class="m-b-5">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry..</p>
+                            <p class="mb-1">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has beenorem Ipsum is simply dummy text of the printing and type setting industry..</p>
                             <div class="comment-footer">
-                                <span class="text-muted pull-right">April 14, 2016</span>
+                                <span class="text-muted float-right">April 14, 2016</span>
                                 <span class="label label-light-info">Pending</span>
                                 <span class="action-icons">
                                                         <a href="javascript:void(0)"><i class="ti-pencil-alt"></i></a>
@@ -627,13 +629,13 @@
         </div>
         <div class="col-lg-6">
             <div class="card">
-                <div class="card-block">
-                    <button class="pull-right btn btn-sm btn-rounded btn-success" data-toggle="modal" data-target="#myModal">Add Task</button>
+                <div class="card-body">
+                    <button class="float-right btn btn-sm btn-rounded btn-success" data-toggle="modal" data-target="#myModal">Add Task</button>
                     <h4 class="card-title">To Do list</h4>
                     <!-- ============================================================== -->
                     <!-- To do list widgets -->
                     <!-- ============================================================== -->
-                    <div class="to-do-widget m-t-20">
+                    <div class="to-do-widget mt-3">
                         <!-- .modal for add task -->
                         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
                             <div class="modal-dialog" role="document">
@@ -666,17 +668,17 @@
                             <!-- /.modal-dialog -->
                         </div>
                         <!-- /.modal -->
-                        <ul class="list-task todo-list list-group m-b-0" data-role="tasklist">
+                        <ul class="list-task todo-list list-group mb-0" data-role="tasklist">
                             <li class="list-group-item" data-role="task">
                                 <div class="checkbox checkbox-info">
                                     <input type="checkbox" id="inputSchedule" name="inputCheckboxesSchedule">
                                     <label for="inputSchedule" class=""> <span>Schedule meeting with</span> </label>
                                 </div>
                                 <ul class="assignedto">
-                                    <li><img src="../assets/images/users/1.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Steave"></li>
-                                    <li><img src="../assets/images/users/2.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jessica"></li>
-                                    <li><img src="../assets/images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
-                                    <li><img src="../assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
+                                    <li><img src="images/users/1.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Steave"></li>
+                                    <li><img src="images/users/2.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jessica"></li>
+                                    <li><img src="images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
+                                    <li><img src="images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
                                 </ul>
                             </li>
                             <li class="list-group-item" data-role="task">
@@ -685,8 +687,8 @@
                                     <label for="inputCall" class=""> <span>Give Purchase report to</span> <span class="label label-light-danger">Today</span> </label>
                                 </div>
                                 <ul class="assignedto">
-                                    <li><img src="../assets/images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
-                                    <li><img src="../assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
+                                    <li><img src="images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
+                                    <li><img src="images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
                                 </ul>
                             </li>
                             <li class="list-group-item" data-role="task">
@@ -694,28 +696,28 @@
                                     <input type="checkbox" id="inputBook" name="inputCheckboxesBook">
                                     <label for="inputBook" class=""> <span>Book flight for holiday</span> </label>
                                 </div>
-                                <div class="item-date"> 26 jun 2017</div>
+                                <div class="item-date"> 26 jun 2019</div>
                             </li>
                             <li class="list-group-item" data-role="task">
                                 <div class="checkbox checkbox-info">
                                     <input type="checkbox" id="inputForward" name="inputCheckboxesForward">
                                     <label for="inputForward" class=""> <span>Forward all tasks</span> <span class="label label-light-warning">2 weeks</span> </label>
                                 </div>
-                                <div class="item-date"> 26 jun 2017</div>
+                                <div class="item-date"> 26 jun 2019</div>
                             </li>
                             <li class="list-group-item" data-role="task">
                                 <div class="checkbox checkbox-info">
                                     <input type="checkbox" id="inputRecieve" name="inputCheckboxesRecieve">
                                     <label for="inputRecieve" class=""> <span>Recieve shipment</span> </label>
                                 </div>
-                                <div class="item-date"> 26 jun 2017</div>
+                                <div class="item-date"> 26 jun 2019</div>
                             </li>
                             <li class="list-group-item" data-role="task">
                                 <div class="checkbox checkbox-info">
                                     <input type="checkbox" id="inputpayment" name="inputCheckboxespayment">
                                     <label for="inputpayment" class=""> <span>Send payment today</span> </label>
                                 </div>
-                                <div class="item-date"> 26 jun 2017</div>
+                                <div class="item-date"> 26 jun 2019</div>
                             </li>
                             <li class="list-group-item" data-role="task">
                                 <div class="checkbox checkbox-info">
@@ -723,9 +725,9 @@
                                     <label for="inputForward2" class=""> <span>Important tasks</span> <span class="label label-light-success">2 weeks</span> </label>
                                 </div>
                                 <ul class="assignedto">
-                                    <li><img src="../assets/images/users/1.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Steave"></li>
-                                    <li><img src="../assets/images/users/2.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Jessica"></li>
-                                    <li><img src="../assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Selina"></li>
+                                    <li><img src="images/users/1.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Steave"></li>
+                                    <li><img src="images/users/2.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Jessica"></li>
+                                    <li><img src="images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Selina"></li>
                                 </ul>
                             </li>
                         </ul>
@@ -746,7 +748,7 @@
         <div class="slimscrollright">
             <div class="rpanel-title"> Service Panel <span><i class="ti-close right-side-toggle"></i></span> </div>
             <div class="r-panel-body">
-                <ul id="themecolors" class="m-t-20">
+                <ul id="themecolors" class="mt-3">
                     <li><b>With Light sidebar</b></li>
                     <li><a href="javascript:void(0)" data-theme="default" class="default-theme">1</a></li>
                     <li><a href="javascript:void(0)" data-theme="green" class="green-theme">2</a></li>
@@ -754,7 +756,7 @@
                     <li><a href="javascript:void(0)" data-theme="blue" class="blue-theme working">4</a></li>
                     <li><a href="javascript:void(0)" data-theme="purple" class="purple-theme">5</a></li>
                     <li><a href="javascript:void(0)" data-theme="megna" class="megna-theme">6</a></li>
-                    <li class="d-block m-t-30"><b>With Dark sidebar</b></li>
+                    <li class="d-block mt-4"><b>With Dark sidebar</b></li>
                     <li><a href="javascript:void(0)" data-theme="default-dark" class="default-dark-theme">7</a></li>
                     <li><a href="javascript:void(0)" data-theme="green-dark" class="green-dark-theme">8</a></li>
                     <li><a href="javascript:void(0)" data-theme="red-dark" class="red-dark-theme">9</a></li>
@@ -762,31 +764,31 @@
                     <li><a href="javascript:void(0)" data-theme="purple-dark" class="purple-dark-theme">11</a></li>
                     <li><a href="javascript:void(0)" data-theme="megna-dark" class="megna-dark-theme ">12</a></li>
                 </ul>
-                <ul class="m-t-20 chatonline">
+                <ul class="mt-3 chatonline">
                     <li><b>Chat option</b></li>
                     <li>
-                        <a href="javascript:void(0)"><img src="../assets/images/users/1.jpg" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
+                        <a href="javascript:void(0)"><img src="images/users/1.jpg" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"><img src="../assets/images/users/2.jpg" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
+                        <a href="javascript:void(0)"><img src="images/users/2.jpg" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"><img src="../assets/images/users/3.jpg" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
+                        <a href="javascript:void(0)"><img src="images/users/3.jpg" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"><img src="../assets/images/users/4.jpg" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
+                        <a href="javascript:void(0)"><img src="images/users/4.jpg" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"><img src="../assets/images/users/5.jpg" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
+                        <a href="javascript:void(0)"><img src="images/users/5.jpg" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"><img src="../assets/images/users/6.jpg" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
+                        <a href="javascript:void(0)"><img src="images/users/6.jpg" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"><img src="../assets/images/users/7.jpg" alt="user-img" class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a>
+                        <a href="javascript:void(0)"><img src="images/users/7.jpg" alt="user-img" class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)"><img src="../assets/images/users/8.jpg" alt="user-img" class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a>
+                        <a href="javascript:void(0)"><img src="images/users/8.jpg" alt="user-img" class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a>
                     </li>
                 </ul>
             </div>

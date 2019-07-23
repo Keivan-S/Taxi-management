@@ -1,11 +1,10 @@
 <?php
 namespace App\Http\Controllers\Auth;
-use Auth;
+use Illuminate\Auth;
 use Melipayamak;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
-use App\Http\Requests;
 use App\User;
 
 class LoginController extends Controller
@@ -59,7 +58,7 @@ class LoginController extends Controller
                 return json_encode(["status" => "error",'msg'=>'شماره همراه یافت نشد']);
             }
 
-
+/*
             // Redirect home page
             \Session::put('user_id', $user->id);
             $user->password=mt_rand(100000,999999);
@@ -79,6 +78,12 @@ class LoginController extends Controller
             }
             $user->save();
             return json_encode(["status" => "numOK",'msg'=>$user->password]);
+*/
+
+
+            return view('index');
+
+
         }elseif(\Session::has('user_id')){
             $user = User::where('id', \Session::get('user_id'))->first();
             if($password==$user->password)

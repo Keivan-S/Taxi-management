@@ -31,7 +31,7 @@
 <body>
 
 <div class="limiter">
-    <div class="container-login100" style="background-image: url({{url('assets/images/background/bg1.jpg')}});">
+    <div class="container-login100" style="background-image: url({{url('assets/images/login/bg1.jpg')}});">
         <div class="wrap-login100 p-t-190 p-b-30">
 
 
@@ -39,7 +39,7 @@
                 @csrf
 
                 <div class="login100-form-avatar">
-                    <img src="{{asset('assets/images/admin.png')}}" alt="AVATAR">
+                    <img src="{{asset('assets/images/login/admin.png')}}" alt="AVATAR">
                 </div>
 
                 <span class="login100-form-title p-t-20 p-b-45">
@@ -114,6 +114,35 @@
     <script src="vendor/select2/select2.min.js"></script>
     <!--===============================================================================================-->
     <script src="{{asset('assets/js/login/main.js')}}"></script>
+
+
+<script>
+    $('.otp').hide();
+    function sendOtp() {
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+
+        $.ajax({
+            url: 'sendOtp',
+            type: 'post',
+            data: {'mobile': $('#mobile').val()},
+            success:function (data) {
+                if (data != 0) {
+                    $('.otp').show();
+                    $('.send-otp').hide();
+                }else{
+                    alert('شماره همراه یافت نشد');
+                }
+            },
+            error:function () {
+                console.log('error');
+            }
+        });
+    }
+</script>
 
 </body>
 </html>
